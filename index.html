@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -144,6 +143,11 @@
             scroll-behavior: smooth;
         }
 
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
         .container {
             max-width: 1280px;
             margin: 0 auto;
@@ -762,7 +766,6 @@
         }
     </style>
 </head>
-
 <body>
 
     <!-- PRELOADER -->
@@ -1106,5 +1109,4 @@
         function escapeHtml(str) { if (!str) return ''; return str.replace(/[&<>]/g, function (m) { if (m === '&') return '&amp;'; if (m === '<') return '&lt;'; if (m === '>') return '&gt;'; return m; }); }
     </script>
 </body>
-
 </html>
